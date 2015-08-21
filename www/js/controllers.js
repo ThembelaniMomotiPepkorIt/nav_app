@@ -19,6 +19,7 @@ angular.module('starter.controllers', ['ionic'])
 				title: 'Your Pos'
 			});
 			$scope.map = map;
+			console.log(map);
 		})
 	}
 	ionic.Platform.ready(initialize);
