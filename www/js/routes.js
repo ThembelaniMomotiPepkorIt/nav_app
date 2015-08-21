@@ -18,5 +18,14 @@ angular.module('starter.routes', ['ionic'])
 					templateUrl : 'templates/home.html'
 				}
 			}
-		});
+		})
+		.state('sidemenu.nav',{
+			url: '/nav',
+			views: {
+				'menuContent':{
+					templateUrl : 'templates/map.html',
+					controller : 'NavCtrl'
+				}
+			}
+		})
 });
