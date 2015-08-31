@@ -23,8 +23,8 @@ angular.module('starter.routes', ['ionic'])
 			url: '/nav',
 			views: {
 				'menuContent':{
-					templateUrl : 'templates/map.html',
-					controller : 'NavCtrl'
+					controller : 'NavCtrl',
+					templateUrl : 'templates/map.html'
 				}
 			}
 		})
